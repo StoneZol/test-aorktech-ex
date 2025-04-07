@@ -5,6 +5,9 @@ import StyledCheckBox from './CheckBox/StyledCheckBox';
 import StyledViewer from './Viewer/StyledViewer';
 
 const Wrapper = styled.div`
+display: flex;
+flex-direction: column;
+gap: 20px;
 width: 300px;
 max-width: 300px;`;
 
